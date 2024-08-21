@@ -1,0 +1,21 @@
+table, tr, td {
+    border-bottom: 2px solid rgb(148, 148, 148);
+    text-align: center;
+    vertical-align: middle;
+    padding: 2px;
+}
+table, tr, th {
+    border-bottom: 2px solid rgb(148, 148, 148);
+    text-align: center;
+    padding: 10px;
+}
+/* table, tr {
+    height: 50px;
+}
+#Heading{
+    height: 100px;
+} */
+table {
+    /* width: 100%; */
+    border-collapse: collapse;
+}
