@@ -1,0 +1,77 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url('/assests/Fonts/Noto_Sans_Hanunoo/NotoSansHanunoo-Regular.ttf');
+}
+
+.main {
+    border: 1px solid black;
+    padding: 5px;
+    height: 40vh;
+    width: 20%;
+    position: relative;
+    left: 450px;
+    top: 150px;
+}
+
+.c1 {
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+    position: absolute;
+    background-color: red;
+    left: 10px;
+    z-index: 1;
+}
+.c3 {
+    border: 1px solid black;
+    height: 50px;
+    width: 60px;
+    margin: 2px;
+    position: absolute;
+    background-color: rgb(36, 230, 68);
+    top: 10px;
+    z-index: -2;
+}
+
+.c2 {
+    border: 1px solid black;
+    background-color: blue;
+    z-index: -1;
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+}
+
+.hello li{
+    background-color: aqua;
+    font-family: myFirstFont;
+}
+
+div~h1{
+    background-color: aqua;
+}
+.nav{
+    position: fixed;
+    /* background-color: black; */
+
+    /* right: 0px; */
+    top: 0;
+    /* bottom: ; */
+}
+.para{
+    /* border: 1px solid black; */
+    border-style: solid;
+    border-color: aqua;
+    border-width: 2px;
+    width: 10px;
+    word-wrap: break-word;
+}
+li{
+    list-style-type: upper-roman;
+}
+
+h1, h2{
+    color: blanchedalmond;
+}
+£header .main
