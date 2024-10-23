@@ -63,3 +63,4 @@ if(val_1 && val_2){
 console.log(false || false)
 console.log(false && true)
 console.log(!false)
+
