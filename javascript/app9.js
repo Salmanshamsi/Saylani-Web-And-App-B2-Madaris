@@ -60,7 +60,7 @@ var inputNumber = prompt("Enter number !");
 const typedCastedNumber = parseInt(inputNumber);
 const floatCastedNumber = parseFloat(inputNumber);
 console.log("output :", typedCastedNumber, floatCastedNumber,  typeof(typedCastedNumber))
-     
+
 
 
 
